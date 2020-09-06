@@ -21,7 +21,14 @@ public class Main {
         //Exercitiu 4:
         System.out.println(-5 + 8 * 6);
         System.out.println((55 + 9) % 9);
-        System.out.println(20 + -3 * 5 / 8);
+
+        float x = 20;
+        float y = -3;
+        float z = 5;
+        float w = 8;
+        System.out.println(x + y * z / w);
+        //System.out.println( 20 + -3 * 5 / 8);
+
         System.out.println(5 + 15 / 3 * 2 - 8 % 3);
     }
 }
